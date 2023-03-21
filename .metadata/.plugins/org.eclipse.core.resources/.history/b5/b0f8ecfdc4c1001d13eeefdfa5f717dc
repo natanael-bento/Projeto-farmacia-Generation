@@ -1,0 +1,44 @@
+package com.generation.helloworld.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+//indica ao spring que essaé uma classe controladora
+@RestController
+
+
+//indica um endpoint para nossa aplicação.
+@RequestMapping ("/hello")
+public class HelloController {
+
+	@GetMapping("/hello")
+	public String batata() {
+		return "Alô mundaum!";
+		
+	}
+	 @GetMapping ("/bsms") 
+	 public String bsmsgen() {
+	     return " Persistência\n <br>" +
+	            "- Mentalidade de Crescimento <br>" +
+	    		"- Orientação ao Futuro <br>" +  
+	            "- Responsabilidade Pessoal <br>" +
+	    		"- Trabalho em Equipe <br>" +
+	            "- Comunicação <br>" +
+	    		"- Comunicação Não Violenta <br>" +
+	            "- Atenção para Detalhes <br>" +
+	    		"- Proatividade";
+    }
+
+     @GetMapping ("/objetivossem")	    
+     
+     public String objetivos() { 
+    	 return "Aprender a usar Spring Boot <br>" +
+                "Começar o projeto do meu blog pessoal <br>"+
+    			"Começar a trabalhar no projeto integrador <br>" + 
+                "Estudar mais sobre computação quantica e outras novas tecnologias";
+	    
+		    }
+	
+}
+
