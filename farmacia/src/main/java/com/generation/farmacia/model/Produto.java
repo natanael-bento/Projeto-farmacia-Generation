@@ -19,8 +19,7 @@ public class Produto {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
-	private Long id;
+    private Long id;
 	
 	@NotBlank(message = "O atributo nome é obrigatorio!")
 	private String nome;
