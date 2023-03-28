@@ -3585,3 +3585,5 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/lo
 2023-03-27 16:04:06,761 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2023-03-27 16:04:06,761 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Usuário\Downloads\gameess\games\src\test\resources
 2023-03-27 16:04:15,101 [Worker-68: Launching games - GamesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/blogpessoal: com.generation:blogpessoal:0.0.1-SNAPSHOT with classifier null to /blogpessoal/target/classes
+2023-03-27 16:04:15,332 [Worker-68: Launching games - GamesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/blogpessoal: com.generation:blogpessoal:0.0.1-SNAPSHOT with classifier null to /blogpessoal/target/classes
+2023-03-27 16:04:15,523 [Worker-68: Launching games - GamesApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/blogpessoal: com.generation:blogpessoal:0.0.1-SNAPSHOT with classifier null to /blogpessoal/target/classes
